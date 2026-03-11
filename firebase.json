@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "complexewab",
+    "site": "complexewab-0duyk",
     "public": "dist",
     "ignore": [
       "firebase.json",
