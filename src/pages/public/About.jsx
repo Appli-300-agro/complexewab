@@ -7,10 +7,10 @@ const About = () => {
       {/* Hero Section */}
       <section className="bg-slate-50 py-20 border-b">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-heading font-bold text-secondary-dark mb-6">À Propos de complexewab</h1>
+          <h1 className="text-4xl md:text-5xl font-heading font-bold text-secondary-dark mb-6">À Propos du Complexe WAB</h1>
           <p className="text-lg text-secondary max-w-3xl mx-auto leading-relaxed">
-            votre destination gastronomique d'exception au Cameroun, alliant produits du terroir et savoir-faire culinaire, 
-            les solutions énergétiques durables et la sécurité intelligente.
+            Situé à Douala Bonamoussadi, le Complexe WAB (William Andem) est une destination d'exception 
+            alliant gastronomie de prestige, hébergement de luxe et espaces événementiels modernes.
           </p>
         </div>
       </section>
@@ -21,20 +21,20 @@ const About = () => {
           <div className="space-y-6">
             <h2 className="text-3xl font-heading font-bold text-primary">Notre Mission</h2>
             <p className="text-secondary leading-relaxed">
-              Afin de renforcer notre visibilité digitale, accroître nos ventes et améliorer l'expérience client, 
-              complexewab s'est donné pour mission de fournir des produits alimentaires de haute qualité, sains et savoureux. 
-              Nous accompagnons le plaisir des sens et convivialité au Cameroun à travers une offre diversifiée et un service premium.
+              Le Complexe WAB s'est donné pour mission d'offrir une expérience multiservice de haute qualité au Cameroun. 
+              Que ce soit pour un repas d'exception, un séjour tout confort ou l'organisation d'un événement mémorable, 
+              nous mettons tout en œuvre pour garantir l'excellence et la satisfaction de nos clients.
             </p>
             <div className="grid grid-cols-2 gap-6 pt-4">
               <div className="space-y-2">
                 <Target className="text-primary h-8 w-8" />
-                <h4 className="font-bold">Objectif</h4>
-                <p className="text-xs text-secondary">Valoriser l'image et les activités de l'entreprise à travers l'innovation.</p>
+                <h4 className="font-bold">Excellence</h4>
+                <p className="text-xs text-secondary">Maintenir les plus hauts standards de service dans tous nos domaines d'activité.</p>
               </div>
               <div className="space-y-2">
                 <ShieldCheck className="text-primary h-8 w-8" />
-                <h4 className="font-bold">Confiance</h4>
-                <p className="text-xs text-secondary">Garantir une expérience utilisateur fluide, moderne et sécurisée.</p>
+                <h4 className="font-bold">Hospitalité</h4>
+                <p className="text-xs text-secondary">Offrir un accueil chaleureux et professionnel à chaque visiteur.</p>
               </div>
             </div>
           </div>
@@ -42,14 +42,14 @@ const About = () => {
             <h3 className="text-xl font-bold mb-6 text-secondary-dark">Nos Domaines d'Expertise</h3>
             <ul className="grid grid-cols-1 gap-3">
               {[
-                "Mobilier de bureau & Décoration",
-                "Électroménager & Froid Industriel",
-                "Groupes Électrogènes (Industriel & Mixte)",
-                "Climatisation & Systèmes de Froid",
-                "Matériel Informatique & Électronique",
-                "Sécurité & Contrôle d'accès biométrique",
-                "Énergie Solaire (Kits & Lampadaires)",
-                "Vaisselle & Arts de la table"
+                "Restauration de Prestige & Buffet à Volonté",
+                "Hébergement en Appartements & Studios Meublés",
+                "Organisation de Banquets & Mariages",
+                "Salles de Conférences & Séminaires",
+                "Bar Lounge & Cave à Vins Sélectionnée",
+                "Espace Snack & Fast Food de Qualité",
+                "Salle de Sport & Remise en Forme",
+                "Service Traiteur Personnalisé"
               ].map(item => (
                 <li key={item} className="flex items-center text-sm text-secondary">
                   <div className="w-1.5 h-1.5 bg-primary rounded-full mr-3" />
@@ -63,13 +63,13 @@ const About = () => {
 
       {/* CTA */}
       <section className="container mx-auto px-4 mb-10 text-center bg-primary p-16 rounded-[2rem] text-white">
-        <h2 className="text-3xl font-bold mb-6">Besoin d'un accompagnement spécifique ?</h2>
+        <h2 className="text-3xl font-bold mb-6">Vous souhaitez réserver ?</h2>
         <p className="text-primary-light mb-8 max-w-2xl mx-auto">
-          Qu'il s'agisse d'un mix énergétique industriel ou d'une installation de sécurité intelligente, 
-          nos experts sont à votre disposition.
+          Qu'il s'agisse d'une table pour notre buffet, d'un séjour dans nos appartements ou de la location d'une salle, 
+          notre équipe est à votre entière disposition.
         </p>
         <button className="bg-white text-primary px-8 py-3 rounded-full font-bold hover:bg-slate-100 transition-colors">
-          Contacter un expert
+          Contacter la réception
         </button>
       </section>
     </div>

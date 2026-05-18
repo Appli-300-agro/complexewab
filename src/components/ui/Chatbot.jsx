@@ -5,7 +5,7 @@ import { cn } from '../../utils/cn';
 const Chatbot = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState([
-    { role: 'bot', text: 'Bonjour ! Je suis l\'assistant IA de complexewab. Comment puis-je vous aider aujourd\'hui ?' }
+    { role: 'bot', text: 'Bonjour ! Je suis l\'assistant IA du Complexe WAB. Comment puis-je vous aider aujourd\'hui ?' }
   ]);
   const [input, setInput] = useState('');
   const scrollRef = useRef(null);
@@ -56,7 +56,7 @@ const Chatbot = () => {
             </div>
             <div>
                 <h3 className="font-bold text-sm">Assistant IA</h3>
-                <p className="text-[10px] opacity-80">En ligne | complexewab</p>
+                <p className="text-[10px] opacity-80">En ligne | Complexe WAB</p>
             </div>
           </div>
 

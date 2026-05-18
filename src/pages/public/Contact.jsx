@@ -26,8 +26,9 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="font-bold text-secondary-dark mb-1">Téléphone & WhatsApp</h3>
-                <p className="text-sm text-secondary">+237 690 50 49 43</p>
-                <p className="text-xs text-primary font-medium mt-1">Lundi - Samedi : 8h00 - 18h00</p>
+                <p className="text-sm text-secondary">+237 691 51 29 93</p>
+                <p className="text-xs text-primary font-medium mt-1">Ouvert tous les jours : 24h/24 (Hébergement)</p>
+                <p className="text-xs text-primary font-medium">Buffet à volonté : 12h00 - 17h00</p>
               </div>
             </div>
 
@@ -37,8 +38,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="font-bold text-secondary-dark mb-1">Email</h3>
-                <p className="text-sm text-secondary">contact@complexewab.cm</p>
-                <p className="text-sm text-secondary">support@complexewab.cm</p>
+                <p className="text-sm text-secondary">contact@complexewab.com</p>
               </div>
             </div>
 
@@ -49,8 +49,8 @@ const Contact = () => {
               <div>
                 <h3 className="font-bold text-secondary-dark mb-1">Adresse</h3>
                 <p className="text-sm text-secondary leading-relaxed">
-                  Douala, Cameroun<br />
-                  Siège Social - Zone Industrielle
+                  Douala, Bonamoussadi<br />
+                  Rond-point Maetur (En face du Super U)
                 </p>
               </div>
             </div>

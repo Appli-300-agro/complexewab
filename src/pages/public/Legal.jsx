@@ -14,7 +14,7 @@ const Legal = () => {
         <section>
           <h2 className="text-xl font-bold text-secondary-dark mb-3">1. Préambule</h2>
           <p>
-            Les présentes conditions régissent les ventes réalisées par l'entreprise complexewab via son site web. 
+            Les présentes conditions régissent les ventes réalisées par le Complexe WAB via son site web. 
             Toute commande implique l'adhésion entière et sans réserve du client.
           </p>
         </section>

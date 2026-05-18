@@ -118,28 +118,28 @@ const Home = () => {
 
   const slides = [
     {
-      title: <>L'art de la <br /> <span className="text-primary-light italic">Gastronomie</span></>,
-      subtitle: "Gastronomie, Saveurs Authentiques et Service d'Excellence. La référence premium pour les pros et particuliers au Cameroun.",
-      cta1: { label: "Catalogue", link: "/catalogue", icon: true },
-      cta2: { label: "Expertise", link: "/contact" },
-      icon: "☀️",
-      iconLabel: "Solutions Solaires"
+      title: <>L'Excellence du <br /> <span className="text-primary-light italic">Complexe WAB</span></>,
+      subtitle: "Restaurant Prestige, Buffet à Volonté et Service d'Excellence à Douala Bonamoussadi. Votre destination incontournable pour la gastronomie.",
+      cta1: { label: "Nos Services", link: "/catalogue", icon: true },
+      cta2: { label: "Nous Contacter", link: "/contact" },
+      icon: "🏨",
+      iconLabel: "Complexe de Prestige"
     },
     {
-      title: <>Votre Partenaire <br /> <span className="text-primary-light italic">Stratégique</span></>,
-      subtitle: "complexewab accompagne le développement industriel et domestique avec des solutions innovantes et durables.",
-      cta1: { label: "À Propos", link: "/a-propos", icon: false },
-      cta2: { label: "Nos Secteurs", link: "#secteurs", action: scrollToSectors },
-      icon: "🏢",
-      iconLabel: "Expertise Pro"
+      title: <>Séjours de <br /> <span className="text-primary-light italic">Grand Standing</span></>,
+      subtitle: "Appartements et studios meublés tout confort pour vos courts et longs séjours au cœur de Douala.",
+      cta1: { label: "Découvrir", link: "/catalogue?category=Hébergement", icon: false },
+      cta2: { label: "Réserver", link: "#secteurs", action: scrollToSectors },
+      icon: "🛋️",
+      iconLabel: "Hébergement Luxe"
     },
     {
-      title: <>Une Équipe <br /> <span className="text-primary-light italic">Dédiée</span></>,
-      subtitle: "Besoin d'un devis personnalisé ou d'une assistance technique ? Nos experts vous répondent sous 24h.",
-      cta1: { label: "Contact", link: "/contact", icon: true },
-      cta2: { label: "WhatsApp", link: "https://wa.me/237600000000" },
-      icon: "📞",
-      iconLabel: "Support 24/7"
+      title: <>Vos Événements <br /> <span className="text-primary-light italic">Inoubliables</span></>,
+      subtitle: "Salles de banquets et de conférences modulables pour mariages, séminaires et réceptions privées.",
+      cta1: { label: "Nos Salles", link: "/catalogue?category=Événementiel", icon: true },
+      cta2: { label: "WhatsApp", link: "https://wa.me/237691512993" },
+      icon: "🎉",
+      iconLabel: "Espace Événements"
     }
   ];
 
@@ -313,13 +313,14 @@ const Home = () => {
                 <p className="text-secondary text-lg md:text-xl font-light pt-4 px-4">L'art de la gastronomie et du service d'exception.</p>
             </div>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 max-w-7xl mx-auto">
                 {CATEGORIES.map((cat, idx) => {
                     const themes = {
-                        'Plats Signatures': { icon: "🥘", color: "from-orange-400 to-red-500" },
-                        'Entrées': { icon: "🥗", color: "from-green-400 to-emerald-600" },
-                        'Boissons': { icon: "🍷", color: "from-blue-400 to-indigo-600" },
-                        'Desserts': { icon: "🍰", color: "from-pink-400 to-rose-500" }
+                        'Restaurant & Buffet': { icon: "🥘", color: "from-orange-400 to-red-500" },
+                        'Hébergement': { icon: "🏨", color: "from-blue-400 to-cyan-600" },
+                        'Événementiel': { icon: "🎉", color: "from-purple-400 to-indigo-600" },
+                        'Bar & Lounge': { icon: "🍷", color: "from-emerald-400 to-teal-600" },
+                        'Sport & Bien-être': { icon: "💪", color: "from-slate-600 to-slate-800" }
                     };
                     const theme = themes[cat] || { icon: "🍽️", color: "from-slate-400 to-slate-600" };
                     return <CategoryCard key={idx} title={cat} {...theme} />;

@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         {/* Logo */}
         <Link to="/" className="flex items-center space-x-2 flex-shrink-0">
-          <span className="text-xl md:text-2xl font-heading font-bold text-primary truncate">complexewab</span>
+          <span className="text-xl md:text-2xl font-heading font-bold text-primary truncate">Complexe WAB</span>
         </Link>
 
         {/* Desktop Navigation */}

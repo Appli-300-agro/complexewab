@@ -54,10 +54,10 @@ const Quote = () => {
             <p className="text-sm text-secondary">Date : {new Date().toLocaleDateString('fr-FR')}</p>
           </div>
           <div className="text-right">
-            <h2 className="text-xl font-bold">complexewab</h2>
-            <p className="text-sm text-secondary">Douala, Cameroun</p>
-            <p className="text-sm text-secondary">contact@complexewab.cm</p>
-            <p className="text-sm text-secondary">+237 600 00 00 00</p>
+            <h2 className="text-xl font-bold">Complexe WAB</h2>
+            <p className="text-sm text-secondary">Douala, Bonamoussadi</p>
+            <p className="text-sm text-secondary">contact@complexewab.com</p>
+            <p className="text-sm text-secondary">+237 691 51 29 93</p>
           </div>
         </div>
 
@@ -118,7 +118,7 @@ const Quote = () => {
 
         {/* Footer */}
         <div className="mt-20 text-[10px] text-secondary text-center space-y-1">
-          <p>complexewab - RC/DLA/202X/B/XXXX - NIU : XXXXXXXXXXXXX</p>
+          <p>Complexe WAB - RC/DLA/202X/B/XXXX - NIU : XXXXXXXXXXXXX</p>
           <p>Validité de l'offre : 15 jours à compter de la date d'émission.</p>
         </div>
       </div>
