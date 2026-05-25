@@ -11,7 +11,7 @@ const Contact = () => {
         <div className="container mx-auto px-4">
           <h1 className="text-4xl font-heading font-bold mb-4">Contactez-nous</h1>
           <p className="text-primary-light max-w-xl mx-auto">
-            Une question technique ? Un besoin urgent ? Notre équipe réagit sous 24h pour vous accompagner.
+            Besoin d'une réservation pour notre buffet, d'un appartement ou d'une salle de fêtes ? Notre équipe est à votre écoute.
           </p>
         </div>
       </section>
@@ -26,9 +26,10 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="font-bold text-secondary-dark mb-1">Téléphone & WhatsApp</h3>
-                <p className="text-sm text-secondary">+237 691 51 29 93</p>
-                <p className="text-xs text-primary font-medium mt-1">Ouvert tous les jours : 24h/24 (Hébergement)</p>
-                <p className="text-xs text-primary font-medium">Buffet à volonté : 12h00 - 17h00</p>
+                <p className="text-sm text-secondary">+237 693 948 066</p>
+                <p className="text-sm text-secondary">+237 696 332 798</p>
+                <p className="text-sm text-secondary">+237 655 316 546</p>
+                <p className="text-xs text-primary font-medium mt-1">Hébergement : 24h/24 | Buffet : 12h00 - 17h00</p>
               </div>
             </div>
 
@@ -38,7 +39,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="font-bold text-secondary-dark mb-1">Email</h3>
-                <p className="text-sm text-secondary">contact@complexewab.com</p>
+                <p className="text-sm text-secondary">wabcomplexe@gmail.com</p>
               </div>
             </div>
 
@@ -49,8 +50,9 @@ const Contact = () => {
               <div>
                 <h3 className="font-bold text-secondary-dark mb-1">Adresse</h3>
                 <p className="text-sm text-secondary leading-relaxed">
-                  Douala, Bonamoussadi<br />
-                  Rond-point Maetur (En face du Super U)
+                  Bonamoussadi, Rond-point Maetur<br />
+                  (En face du Super U)<br />
+                  Douala, Cameroun
                 </p>
               </div>
             </div>

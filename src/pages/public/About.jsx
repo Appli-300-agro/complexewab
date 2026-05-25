@@ -9,8 +9,9 @@ const About = () => {
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-heading font-bold text-secondary-dark mb-6">À Propos du Complexe WAB</h1>
           <p className="text-lg text-secondary max-w-3xl mx-auto leading-relaxed">
-            Situé à Douala Bonamoussadi, le Complexe WAB (William Andem) est une destination d'exception 
-            alliant gastronomie de prestige, hébergement de luxe et espaces événementiels modernes.
+            Situé à Douala Bonamoussadi, le Complexe WAB (William Andem) est une destination multi-services d'exception 
+            fondée par l'ancien gardien international William Andem. Nous allions gastronomie de prestige, 
+            hébergement de standing et espaces événementiels modernes.
           </p>
         </div>
       </section>
@@ -19,11 +20,11 @@ const About = () => {
       <section className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <h2 className="text-3xl font-heading font-bold text-primary">Notre Mission</h2>
+            <h2 className="text-3xl font-heading font-bold text-primary">Notre Vision</h2>
             <p className="text-secondary leading-relaxed">
               Le Complexe WAB s'est donné pour mission d'offrir une expérience multiservice de haute qualité au Cameroun. 
-              Que ce soit pour un repas d'exception, un séjour tout confort ou l'organisation d'un événement mémorable, 
-              nous mettons tout en œuvre pour garantir l'excellence et la satisfaction de nos clients.
+              Sous l'impulsion de William Andem, nous mettons tout en œuvre pour garantir l'excellence, le confort et la satisfaction 
+              de nos clients, que ce soit pour un repas d'exception, un séjour tout confort ou un événement mémorable.
             </p>
             <div className="grid grid-cols-2 gap-6 pt-4">
               <div className="space-y-2">
@@ -38,20 +39,21 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="bg-primary/5 rounded-3xl p-8 border-2 border-primary/10 border-dashed">
-            <h3 className="text-xl font-bold mb-6 text-secondary-dark">Nos Domaines d'Expertise</h3>
-            <ul className="grid grid-cols-1 gap-3">
+          <div className="bg-primary/5 rounded-3xl p-8 border-2 border-primary/10 border-dashed relative overflow-hidden">
+            <img src="/complexe-wab-2.jpg" alt="Complexe WAB Interior" className="absolute inset-0 w-full h-full object-cover opacity-10 pointer-events-none" />
+            <h3 className="text-xl font-bold mb-6 text-secondary-dark relative z-10">Nos Domaines d'Expertise</h3>
+            <ul className="grid grid-cols-1 gap-3 relative z-10">
               {[
                 "Restauration de Prestige & Buffet à Volonté",
                 "Hébergement en Appartements & Studios Meublés",
-                "Organisation de Banquets & Mariages",
-                "Salles de Conférences & Séminaires",
+                "Organisation de Banquets, Mariages & Spectacles",
+                "Salles de Conférences & Séminaires Modulables",
                 "Bar Lounge & Cave à Vins Sélectionnée",
                 "Espace Snack & Fast Food de Qualité",
-                "Salle de Sport & Remise en Forme",
-                "Service Traiteur Personnalisé"
+                "Salle de Sport & Remise en Forme (Gym)",
+                "Service Traiteur pour vos Événements"
               ].map(item => (
-                <li key={item} className="flex items-center text-sm text-secondary">
+                <li key={item} className="flex items-center text-sm text-secondary font-medium">
                   <div className="w-1.5 h-1.5 bg-primary rounded-full mr-3" />
                   {item}
                 </li>

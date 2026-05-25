@@ -39,8 +39,9 @@ const Footer = () => {
           <h4 className="text-white font-medium mb-4">Contact</h4>
           <ul className="space-y-2 text-sm">
             <li>Douala, Bonamoussadi</li>
-            <li>contact@complexewab.com</li>
-            <li>+237 691 51 29 93</li>
+            <li>wabcomplexe@gmail.com</li>
+            <li>+237 693 948 066</li>
+            <li>+237 696 332 798</li>
           </ul>
         </div>
       
@@ -48,7 +49,7 @@ const Footer = () => {
         <div>
           <h4 className="text-white font-medium mb-4">Suivez-nous</h4>
           <div className="flex gap-4">
-            <a href="https://wa.me/237691512993" target="_blank" rel="noopener" className="hover:text-primary transition-colors"><MessageCircle className="w-5 h-5" /></a>
+            <a href="https://wa.me/237693948066" target="_blank" rel="noopener" className="hover:text-primary transition-colors"><MessageCircle className="w-5 h-5" /></a>
             <a href="https://www.facebook.com/profile.php?id=61578688238265" target="_blank" rel="noopener" className="hover:text-primary transition-colors"><Facebook className="w-5 h-5" /></a>
           </div>
         </div>

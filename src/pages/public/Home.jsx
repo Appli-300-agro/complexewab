@@ -137,7 +137,7 @@ const Home = () => {
       title: <>Vos Événements <br /> <span className="text-primary-light italic">Inoubliables</span></>,
       subtitle: "Salles de banquets et de conférences modulables pour mariages, séminaires et réceptions privées.",
       cta1: { label: "Nos Salles", link: "/catalogue?category=Événementiel", icon: true },
-      cta2: { label: "WhatsApp", link: "https://wa.me/237691512993" },
+      cta2: { label: "WhatsApp", link: "https://wa.me/237693948066" },
       icon: "🎉",
       iconLabel: "Espace Événements"
     }
@@ -161,6 +161,10 @@ const Home = () => {
 
       {/* Hero Section */}
       <section className="relative min-h-[95vh] flex items-center overflow-hidden text-white bg-secondary-dark">
+        <div className="absolute inset-0 z-0">
+          <img src="/complexe-wab.jpg" alt="Complexe WAB Background" className="w-full h-full object-cover opacity-50" />
+          <div className="absolute inset-0 bg-gradient-to-b from-secondary-dark/60 via-secondary-dark/40 to-secondary-dark/60" />
+        </div>
         <ParticlesBackground />
         
         <div className="container mx-auto px-4 relative z-10 py-12 md:py-20">
@@ -260,19 +264,19 @@ const Home = () => {
       <AnimatedSection className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <FeatureCard 
-            icon={Truck} 
-            title="Service Express" 
-            description="Une expérience culinaire livrée chez vous ou à savourer sur place. avec calcul en temps réel."
-          />
-          <FeatureCard 
             icon={ShieldCheck} 
-            title="Paiement Sécurisé" 
-            description="Transactions certifiées via MoMo, OM ou Carte Bancaire. Sécurité maximale."
+            title="Gastronomie de Choix" 
+            description="Savourez notre buffet quotidien et nos menus à la carte préparés par des chefs passionnés."
           />
           <FeatureCard 
             icon={Clock} 
-            title="Support Premium" 
-            description="Une équipe dédiée et un assistant IA disponible 24/7 pour vos besoins techniques."
+            title="Confort & Luxe" 
+            description="Séjournez dans nos appartements meublés alliant modernité, sécurité et standing."
+          />
+          <FeatureCard 
+            icon={LayoutDashboard} 
+            title="Événements sur Mesure" 
+            description="Des salles de prestige pour vos mariages, conférences et réceptions inoubliables."
           />
         </div>
       </AnimatedSection>
